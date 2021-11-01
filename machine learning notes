@@ -1,0 +1,36 @@
+machine learning- subfield of AI
+    -uses algorithms and statistical models to predict outcome
+    -relies on patterns and inferences from historical data, does not need explicit instructions
+
+how its being used:
+    -weather forecasting, medical research, investment forecasting
+
+scikit-learn library- offers machine learning algorithms as packages (called estimators)
+    -used to create predictive models for data analytics
+
+types of machine learning
+    -supervised ML- works with labeled data
+        -training model to recognize objects that are labeled so it can classify the objects
+        -train your ML models on datasets that consist of rows and columns
+            -rows are called "samples"
+            -columns are called "features" of that sample
+            -each sample has an associated label called a target (value you want your model to predict for new data presented)
+        -classification models- predict the discrete classes to which samples belong
+            -binary classification- 2 classes (ex- email is spam or non-spam)
+            -multi-classification-
+        -regression models- continuous output
+            -linearregression estimator uses all numerical features in a dataset to make sophisticated predictions
+    -unsupervised ML- works with unlabeled data
+        -uses the training under supervised to classify objects
+        -no "target" value- uses a clustering algorithm- finds similarities and groups similar data points together
+            -uses dimensionality reduction- compress multiple features into a few key features
+
+steps of data science study
+    -load data
+    -explore data with pandas and visualizations
+    -transofrm data (numeric to non-numeric)
+    -split the data (training and testint)
+    -create model
+    -test model
+    -tune model
+    -use model to make predictions on new data
