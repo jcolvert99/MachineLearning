@@ -34,3 +34,8 @@ steps of data science study
     -test model
     -tune model
     -use model to make predictions on new data
+
+digits is a bunch objects
+    -digits.data
+    -digits.target
+    -digits.images

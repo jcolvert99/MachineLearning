@@ -73,3 +73,5 @@ confusion_df = pd.DataFrame(confusion, index=range(10), columns=range(10))
 
 figure = plt2.figure(figsize=(7,6))
 axes = sns.heatmap(confusion_df, annot=True, cmap=plt2.cm.nipy_spectral_r)
+
+plt2.show()
