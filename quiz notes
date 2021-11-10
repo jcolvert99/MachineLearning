@@ -1,0 +1,11 @@
+-have 3 files- building a video game rating system with 32 features
+-each game has a target rating between 1,2,3,4
+-gameratings is the training file so you DONT need to split
+-go to target_names file to interpret what each target number means
+-test_esrb is the test file
+-feed the model with the test data and it should correctly predict the rating
+-deliverable- produce a prediction file with the rating and description
+-DONT NEED TO USE TRAIN TEST SPLIT
+
+-install sklearn
+-install pandas
